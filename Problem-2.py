@@ -1,10 +1,10 @@
-def generate_odd_series(n: int):
-    result = []
+def odd(n: int):
+    ans = []
     for i in range(n):
-        result.append(2 * i + 1)
-    print(', '.join(map(str, result)))
+        ans.append(2 * i + 1)
+    print(', '.join(map(str, ans)))
 
 # Example
-generate_odd_series(5)
+odd(5)
 
 # OUTPUT: 1,3,5,7,9
