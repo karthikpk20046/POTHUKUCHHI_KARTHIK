@@ -6,3 +6,5 @@ def generate_odd_series(n: int):
 
 # Example
 generate_odd_series(5)
+
+# OUTPUT: 1,3,5,7,9
