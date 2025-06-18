@@ -11,7 +11,7 @@ class Cal:
         else:
             return "Invalid operation"
 
-# Example
+# EXAMPLE
 ans = Cal()
 print(ans.calculate(50, 5, 'add'))
 print(ans.calculate(150, 30, 'divide'))            
