@@ -1,6 +1,4 @@
-# Problem-1.py
-
-class Calculator:
+class Cal:
     def calculate(self, a: float, b: float, operation: str):
         if operation == 'add':
             return a + b
@@ -14,8 +12,8 @@ class Calculator:
             return "Invalid operation"
 
 # Example
-calc = Calculator()
-print(calc.calculate(50, 5, 'add'))
-print(calc.calculate(150, 30, 'divide'))            
+ans = Cal()
+print(ans.calculate(50, 5, 'add'))
+print(ans.calculate(150, 30, 'divide'))            
 
 # OUTPUT: 55 , 5.0
