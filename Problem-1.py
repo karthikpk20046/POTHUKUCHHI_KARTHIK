@@ -15,5 +15,7 @@ class Calculator:
 
 # Example
 calc = Calculator()
-print(calc.calculate(10, 5, 'add'))
-print(calc.calculate(10, 0, 'divide'))
+print(calc.calculate(50, 5, 'add'))
+print(calc.calculate(150, 30, 'divide'))            
+
+# OUTPUT: 55 , 5.0
