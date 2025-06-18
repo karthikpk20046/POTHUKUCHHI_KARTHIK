@@ -5,7 +5,7 @@ def odd_up(n: int):
             ans.append(i)
     print(', '.join(map(str, ans)))
 
-# Example usage:
+# EXAMPLE
 odd_up(11)
 
 # OUTPUT: 1,3,5,7,9,11
